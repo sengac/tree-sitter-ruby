@@ -1,6 +1,6 @@
 {
   "name": "@sengac/tree-sitter-ruby",
-  "version": "0.25.10",
+  "version": "0.25.11",
   "description": "Ruby grammar for tree-sitter",
   "repository": "https://github.com/sengac/tree-sitter-ruby",
   "license": "MIT",
@@ -71,7 +71,8 @@
   "scripts": {
     "prestart": "tree-sitter build --wasm",
     "start": "tree-sitter playground",
-    "test": "node --test bindings/node/*_test.js"
+    "test": "node --test bindings/node/*_test.js",
+    "prebuildify": "prebuildify --napi --name node.napi"
   },
   "publishConfig": {
     "access": "public"
