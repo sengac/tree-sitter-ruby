@@ -1,6 +1,6 @@
 {
   "name": "@sengac/tree-sitter-ruby",
-  "version": "0.25.12",
+  "version": "0.25.13",
   "description": "Ruby grammar for tree-sitter",
   "repository": "https://github.com/sengac/tree-sitter-ruby",
   "license": "MIT",
